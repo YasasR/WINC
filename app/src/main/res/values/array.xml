@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listDisplayWord">
+        <item>Exhibit 1</item>
+        <item>Exhibit 2</item>
+        <item>Exhibit 3</item>
+        <item>Exhibit 4</item>
+        <item>Exhibit 5</item>
+        <item>Exhibit 6</item>
+        <item>Exhibit 7</item>
+        <item>Exhibit 8</item>
+        <item>Exhibit 9</item>
+        <item>Exhibit 10</item>
+        <item>Exhibit 11</item>
+        <item>Exhibit 12</item>
+        <item>Exhibit 13</item>
+        <item>Exhibit 14</item>
+        <item>Exhibit 15</item>
+        <item>Exhibit 16</item>
+        <item>Exhibit 17</item>
+        <item>Exhibit 18</item>
+        <item>Exhibit 19</item>
+        <item>Exhibit 20</item>
+
+    </string-array>
+
+</resources>

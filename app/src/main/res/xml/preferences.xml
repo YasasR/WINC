@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+    android:title="Server Details">
+
+    <EditTextPreference
+        android:key="server_IP"
+        android:title="Server IP"
+        android:summary="Default"
+        android:dialogTitle="Enter Remote Server IP" />
+
+</PreferenceCategory>
+    <PreferenceCategory
+        android:title="Time Duration">
+
+        <EditTextPreference
+            android:key="timedue"
+            android:title="Set Time Quantam"
+            android:summary="%s"
+            android:defaultValue="@string/default_rss"
+            android:dialogTitle="Enter Time Preference in miliseconds" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="RSSI Value">
+
+        <com.example.blescanner.NumberPickerPreference
+            android:key="rssi_val"
+            android:title="RSSI"
+            android:summary="%s"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Exibits">
+
+        <ListPreference
+            android:key="exibit_list"
+            android:title="Select Exibit"
+            android:summary="%s"
+            android:entries="@array/listDisplayWord"
+            android:entryValues="@array/listDisplayWord"
+            android:dialogTitle="Select Exibit No"
+            android:defaultValue="@string/default_exibit"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>
