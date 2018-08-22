@@ -18,10 +18,10 @@ public class SettingsActivity extends PreferenceActivity {
                 .commit();
     }
 
-    @Override
+   /* @Override
     public void onBackPressed(){
         Intent intent = new Intent(this, DeviceScan.class);
         startActivity(intent);
-    }
+    }*/
 
 }

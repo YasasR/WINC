@@ -59,7 +59,7 @@ public class DeviceScan extends ListActivity {
     private ArrayList<BluetoothDevice> mNewDevices2;
     private ArrayList<BluetoothDevice> mFinalDevices;
     private int totalCount=0;
-	private String server="http://192.168.137.131/WinC/Add_php.php";
+	//private String server="http://192.168.137.131/WinC/Add_php.php";
 	String exshibit="",prefServer="";
 
 
@@ -178,6 +178,12 @@ public class DeviceScan extends ListActivity {
 		mLeDeviceListAdapter = new LeDeviceListAdapter();
 		setListAdapter( mLeDeviceListAdapter );
 		//scanLeDevice( true );
+        //accessing shared preferences
+        SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
+        exshibit = sharedPref.getString("exibit_list", "");
+        rssrange=-sharedPref.getInt("rssi_val",50);
+        prefServer=sharedPref.getString("server_IP","");
+        System.out.println(exshibit+" "+rssrange+" "+prefServer);
 		
 	}
 	

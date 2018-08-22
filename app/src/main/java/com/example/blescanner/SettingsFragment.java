@@ -88,15 +88,17 @@ public class SettingsFragment extends PreferenceFragment implements SharedPrefer
             pref.setSummary(sharedPreferences.getString(key, ""));
 
         }
-        if (key.equals("timedue")) {
-            Preference pref = findPreference(key);
-            pref.setSummary(sharedPreferences.getString(key, ""));
 
-        }
         if (key.equals("rssi_val")) {
            // System.out.println("sdsdsdsdsdsd");
             Preference pref = findPreference(key);
             pref.setSummary(String.valueOf(sharedPreferences.getInt(key,0)));
+
+        }
+        if (key.equals("server_IP")) {
+            // System.out.println("sdsdsdsdsdsd");
+            Preference pref = findPreference(key);
+            pref.setSummary(String.valueOf(sharedPreferences.getString(key,"")));
 
         }
 
