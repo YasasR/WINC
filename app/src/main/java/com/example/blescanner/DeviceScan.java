@@ -1,6 +1,6 @@
 package com.example.blescanner;
 
-import com.example.blescanner.R;
+
 
 import android.Manifest;
 import android.app.Activity;
@@ -12,6 +12,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.preference.PreferenceManager;
@@ -28,7 +29,18 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+import org.apache.http.client.HttpClient;
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.message.BasicNameValuePair;
 
+import java.util.List;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -47,8 +59,10 @@ public class DeviceScan extends ListActivity {
     private ArrayList<BluetoothDevice> mNewDevices2;
     private ArrayList<BluetoothDevice> mFinalDevices;
     private int totalCount=0;
-    private String startTime,endTime;
-	
+	private String server="http://192.168.137.131/WinC/Add_php.php";
+	String exshibit="",prefServer="";
+
+
 	private static final int REQUEST_ENABLE_BT 	= 1;
 	private static final long SCAN_PERIOD		= 64*1000;
 	
@@ -75,8 +89,10 @@ public class DeviceScan extends ListActivity {
 
         //accessing shared preferences
         SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
-        String syncConnPref = sharedPref.getString("exibit_list", "");
+        exshibit = sharedPref.getString("exibit_list", "");
         rssrange=-sharedPref.getInt("rssi_val",50);
+        prefServer=sharedPref.getString("server_IP","");
+
 
         System.out.println("RSSI :"+rssrange);
 
@@ -231,6 +247,7 @@ public class DeviceScan extends ListActivity {
                             getFinalList();
 
                             System.out.println(totalCount);
+							InsertData(exshibit,totalCount);
                             //Reset all buffers
                             mNewDevices1.clear();
                             mNewDevices2.clear();
@@ -430,6 +447,9 @@ public class DeviceScan extends ListActivity {
     };
 
     private void getFinalList() {
+		//System.out.println("Array 1 : "+mNewDevices1.size());
+		//System.out.println("Array 2 : "+mNewDevices2.size());
+
         for(int i=0;i<mNewDevices2.size();i++){
 
                 if(mNewDevices1.contains(mNewDevices2.get(i))){
@@ -451,6 +471,56 @@ public class DeviceScan extends ListActivity {
         mHandler1.removeCallbacks(mStatusChecker);
 
     }
+
+    public void InsertData(final String exhibit, final int dCount){
+
+		final String cnt=String.valueOf(dCount);
+		class SendPostReqAsyncTask extends AsyncTask<String, Void, String> {
+			@Override
+			protected String doInBackground(String... params) {
+
+				String exhibitHolder = exhibit ;
+				String countHolder = cnt ;
+
+				List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>();
+
+				nameValuePairs.add(new BasicNameValuePair("exName", exhibitHolder));
+				nameValuePairs.add(new BasicNameValuePair("count", countHolder));
+
+				try {
+					HttpClient httpClient = new DefaultHttpClient();
+
+					HttpPost httpPost = new HttpPost(prefServer);
+
+					httpPost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
+
+					HttpResponse httpResponse = httpClient.execute(httpPost);
+
+					HttpEntity httpEntity = httpResponse.getEntity();
+
+
+				} catch (ClientProtocolException e) {
+
+				} catch (IOException e) {
+
+				}
+				return "Data Inserted Successfully";
+			}
+
+			@Override
+			protected void onPostExecute(String result) {
+
+				super.onPostExecute(result);
+
+				Toast.makeText(DeviceScan.this, "Data Submit Successfully", Toast.LENGTH_LONG).show();
+
+			}
+		}
+
+		SendPostReqAsyncTask sendPostReqAsyncTask = new SendPostReqAsyncTask();
+
+		sendPostReqAsyncTask.execute(exhibit,cnt);
+	}
 }
 
 

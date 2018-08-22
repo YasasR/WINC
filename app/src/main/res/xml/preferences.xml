@@ -12,17 +12,6 @@
         android:dialogTitle="Enter Remote Server IP" />
 
 </PreferenceCategory>
-    <PreferenceCategory
-        android:title="Time Duration">
-
-        <EditTextPreference
-            android:key="timedue"
-            android:title="Set Time Quantam"
-            android:summary="%s"
-            android:defaultValue="@string/default_rss"
-            android:dialogTitle="Enter Time Preference in miliseconds" />
-
-    </PreferenceCategory>
 
     <PreferenceCategory
         android:title="RSSI Value">

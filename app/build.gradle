@@ -8,6 +8,7 @@ android {
         applicationId "com.example.blescanner"
         minSdkVersion 19
         targetSdkVersion 26
+        useLibrary 'org.apache.http.legacy'
     }
 
     buildTypes {
