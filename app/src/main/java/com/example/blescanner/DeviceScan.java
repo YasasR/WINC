@@ -40,7 +40,7 @@ public class DeviceScan extends ListActivity {
 	private Handler mHandler;
     private Handler mHandler1;
     private String mdeviceName;
-    private int mInterval=20000;
+    private int mInterval=2*60*1000;
     private int rssrange;
     private int listCount;
     private ArrayList<BluetoothDevice> mNewDevices1;
@@ -50,7 +50,7 @@ public class DeviceScan extends ListActivity {
     private String startTime,endTime;
 	
 	private static final int REQUEST_ENABLE_BT 	= 1;
-	private static final long SCAN_PERIOD		= 10000;
+	private static final long SCAN_PERIOD		= 64*1000;
 	
 	
 	
@@ -192,13 +192,13 @@ public class DeviceScan extends ListActivity {
 	@Override
 	protected void onListItemClick( ListView l, View v, int position, long id ) {
 		
-		final BluetoothDevice device = mLeDeviceListAdapter.getDevice(position);
+		//final BluetoothDevice device = mLeDeviceListAdapter.getDevice(position);
 		
-		if( device == null ) {
-			return;
-		}
+		//if( device == null ) {
+		//	return;
+		//}
 		
-		Toast.makeText( this, "You selected device " + device.getName() , Toast.LENGTH_SHORT ).show();
+		//Toast.makeText( this, "You selected device " + device.getName() , Toast.LENGTH_SHORT ).show();
 		
 //		final Intent intent = new Intent( this, DeviceControl.class );
 //		intent.putExtra( DeviceControl.EXTRAS_DEVICE_NAME, device.getName() );
