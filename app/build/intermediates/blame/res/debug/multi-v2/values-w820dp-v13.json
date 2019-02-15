@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ASUS\\Downloads\\BLE-Scanner-master1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "A:\\projects\\WINC\\fin\\BLE-Scanner-master1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ASUS\\Downloads\\BLE-Scanner-master1\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "source": "A:\\projects\\WINC\\fin\\BLE-Scanner-master1\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "from": {
                         "startLines": "7,8",
                         "startColumns": "4,4",

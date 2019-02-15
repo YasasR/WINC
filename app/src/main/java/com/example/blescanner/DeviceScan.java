@@ -12,6 +12,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.content.res.Resources;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
@@ -38,7 +39,16 @@ import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
+import java.io.BufferedWriter;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.Arrays;
 import java.util.List;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -52,19 +62,21 @@ public class DeviceScan extends ListActivity {
 	private Handler mHandler;
     private Handler mHandler1;
     private String mdeviceName;
-    private int mInterval=2*60*1000;
+    private int mInterval=24*1000;
     private int rssrange;
     private int listCount;
     private ArrayList<BluetoothDevice> mNewDevices1;
     private ArrayList<BluetoothDevice> mNewDevices2;
-    private ArrayList<BluetoothDevice> mFinalDevices;
+    private ArrayList<String> mFinalDevices;
+    private String[] deviceMAC;
     private int totalCount=0;
 	//private String server="http://192.168.137.131/WinC/Add_php.php";
-	String exshibit="",prefServer="";
-
+	String exshibit="",prefServer="",devMAC;
+	int ID=1;
+	String error="success";
 
 	private static final int REQUEST_ENABLE_BT 	= 1;
-	private static final long SCAN_PERIOD		= 64*1000;
+	private static final long SCAN_PERIOD		= 20*1000;
 	
 	
 	
@@ -92,6 +104,7 @@ public class DeviceScan extends ListActivity {
         exshibit = sharedPref.getString("exibit_list", "");
         rssrange=-sharedPref.getInt("rssi_val",50);
         prefServer=sharedPref.getString("server_IP","");
+        ID=getId(exshibit);
 
 
         System.out.println("RSSI :"+rssrange);
@@ -99,7 +112,7 @@ public class DeviceScan extends ListActivity {
         //
         mNewDevices1= new ArrayList<BluetoothDevice>();
         mNewDevices2= new ArrayList<BluetoothDevice>();
-        mFinalDevices= new ArrayList<BluetoothDevice>();
+        mFinalDevices= new ArrayList<String>();
         listCount=1;
 
 		
@@ -155,7 +168,16 @@ public class DeviceScan extends ListActivity {
 		}
 		return true;
 	}
-	
+
+
+	public int getId(String exbt){
+	    int id=1;
+        Resources res = getResources();
+        String[] items = res.getStringArray(R.array.listDisplayWord);
+	    id= Arrays.asList(items).indexOf(exbt)+1;
+        System.out.println(id);
+	    return id;
+    }
 	@Override
 	protected void onResume() {
 		super.onResume();
@@ -183,7 +205,8 @@ public class DeviceScan extends ListActivity {
         exshibit = sharedPref.getString("exibit_list", "");
         rssrange=-sharedPref.getInt("rssi_val",50);
         prefServer=sharedPref.getString("server_IP","");
-        System.out.println(exshibit+" "+rssrange+" "+prefServer);
+        ID=getId(exshibit);
+        System.out.println(ID+" "+exshibit+" "+rssrange+" "+prefServer);
 		
 	}
 	
@@ -241,6 +264,7 @@ public class DeviceScan extends ListActivity {
 					mScanning = false;
 					mBluetoothAdapter.stopLeScan( mLeScanCallback );
                     System.out.println("End: "+listCount);
+					Toast.makeText(DeviceScan.this, "End: "+listCount, Toast.LENGTH_LONG).show();
                     listCount++;
 
                     if(listCount==3){
@@ -253,12 +277,17 @@ public class DeviceScan extends ListActivity {
                             getFinalList();
 
                             System.out.println(totalCount);
-							InsertData(exshibit,totalCount);
+                            new HTTPAsyncTask().execute(prefServer);
                             //Reset all buffers
                             mNewDevices1.clear();
                             mNewDevices2.clear();
-                            totalCount=0;
-                        }
+
+
+                        }else{
+							totalCount=0;
+							new HTTPAsyncTask().execute(prefServer);
+							mFinalDevices.clear();
+						}
 
                     }
 					invalidateOptionsMenu();
@@ -341,7 +370,7 @@ public class DeviceScan extends ListActivity {
                     //rawData.put( device.toString(), strRawData.toString() );
                 } else {
                     // just update
-                    //rssiValue.put( device.toString(), Integer.toString(rssi) );
+                   // rssiValue.put( device.toString(), Integer.toString(rssi) );
                     // System.out.println(rssi);
                     //rawData.put( device.toString(), strRawData.toString() );
                 }
@@ -443,6 +472,7 @@ public class DeviceScan extends ListActivity {
                 mLeDeviceListAdapter.clear();
                 scanLeDevice( true );
                 System.out.println("Started: "+listCount);
+				Toast.makeText(DeviceScan.this, "Started: "+listCount, Toast.LENGTH_LONG).show();
 
 
             } finally {
@@ -455,13 +485,24 @@ public class DeviceScan extends ListActivity {
     private void getFinalList() {
 		//System.out.println("Array 1 : "+mNewDevices1.size());
 		//System.out.println("Array 2 : "+mNewDevices2.size());
+        totalCount=0;
+		mFinalDevices.clear();
 
         for(int i=0;i<mNewDevices2.size();i++){
 
                 if(mNewDevices1.contains(mNewDevices2.get(i))){
+                	mFinalDevices.add(mNewDevices2.get(i).getAddress());
                     totalCount++;
 
                 }
+
+            }
+            if(!mFinalDevices.isEmpty()){
+             deviceMAC=new String[mFinalDevices.size()];
+             Object[] ob=mFinalDevices.toArray();
+				System.out.println(ob.toString());
+             deviceMAC=Arrays.copyOf(ob, ob.length, String[].class);
+             devMAC=Arrays.toString(deviceMAC);
 
             }
 
@@ -478,55 +519,86 @@ public class DeviceScan extends ListActivity {
 
     }
 
-    public void InsertData(final String exhibit, final int dCount){
 
-		final String cnt=String.valueOf(dCount);
-		class SendPostReqAsyncTask extends AsyncTask<String, Void, String> {
-			@Override
-			protected String doInBackground(String... params) {
+    private JSONObject buidJsonObject() throws JSONException {
 
-				String exhibitHolder = exhibit ;
-				String countHolder = cnt ;
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.accumulate("id", ID);
+        jsonObject.accumulate("name",exshibit);
+        jsonObject.accumulate("count",totalCount);
+		jsonObject.accumulate("tags",new JSONArray(mFinalDevices));
 
-				List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>();
+        Log.d("object",jsonObject.toString());
+		System.out.println(jsonObject.toString());
+        return jsonObject;
+    }
 
-				nameValuePairs.add(new BasicNameValuePair("exName", exhibitHolder));
-				nameValuePairs.add(new BasicNameValuePair("count", countHolder));
+    private class HTTPAsyncTask extends AsyncTask<String, Void, String> {
+        @Override
+        protected String doInBackground(String... urls) {
+            // params comes from the execute() call: params[0] is the url.
 
-				try {
-					HttpClient httpClient = new DefaultHttpClient();
-
-					HttpPost httpPost = new HttpPost(prefServer);
-
-					httpPost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
-
-					HttpResponse httpResponse = httpClient.execute(httpPost);
-
-					HttpEntity httpEntity = httpResponse.getEntity();
-
-
-				} catch (ClientProtocolException e) {
-
-				} catch (IOException e) {
-
-				}
-				return "Data Inserted Successfully";
+            try {
+                try {
+                    return HttpPost(urls[0]);
+                } catch (JSONException e) {
+                    e.printStackTrace();
+					System.out.println("Error");
+					error="Error";
+                    return "Error!";
+                }
+            } catch (IOException e) {
+				System.out.println("unable");
+				//error="Unable";
+                return "Unable to retrieve web page. URL may be invalid.";
 			}
+        }
+        // onPostExecute displays the results of the AsyncTask.
+        @Override
+        protected void onPostExecute(String result) {
+            super.onPostExecute(result);
 
-			@Override
-			protected void onPostExecute(String result) {
+            Toast.makeText(DeviceScan.this, error+" "+ totalCount, Toast.LENGTH_LONG).show();
+			System.out.println("Success");
 
-				super.onPostExecute(result);
+        }
+    }
 
-				Toast.makeText(DeviceScan.this, "Data Submit Successfully", Toast.LENGTH_LONG).show();
+    private String HttpPost(String myUrl) throws IOException, JSONException {
+        String result = "";
 
-			}
-		}
+        URL url = new URL(myUrl);
 
-		SendPostReqAsyncTask sendPostReqAsyncTask = new SendPostReqAsyncTask();
+        // 1. create HttpURLConnection
+        HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+        conn.setRequestMethod("POST");
+        conn.setRequestProperty("Content-Type", "application/json; charset=utf-8");
 
-		sendPostReqAsyncTask.execute(exhibit,cnt);
-	}
+        // 2. build JSON object
+        JSONObject jsonObject = buidJsonObject();
+
+        // 3. add JSON content to POST request body
+        setPostRequestContent(conn, jsonObject);
+
+        // 4. make POST request to the given URL
+        conn.connect();
+
+        // 5. return response message
+        return conn.getResponseMessage()+"";
+
+    }
+
+    private void setPostRequestContent(HttpURLConnection conn, JSONObject jsonObject) throws IOException {
+
+        OutputStream os = conn.getOutputStream();
+        BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(os, "UTF-8"));
+        writer.write(jsonObject.toString());
+        Log.i(DeviceScan.class.toString(), jsonObject.toString());
+        writer.flush();
+        writer.close();
+        os.close();
+    }
+
 }
 
 

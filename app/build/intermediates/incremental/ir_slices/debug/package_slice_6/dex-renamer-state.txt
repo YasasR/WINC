@@ -1,4 +1,4 @@
-#Wed Aug 22 13:30:13 IST 2018
-base.0=C\:\\Users\\ASUS\\Downloads\\BLE-Scanner-master1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\23
+#Fri Aug 24 11:03:00 IST 2018
+base.0=C\:\\Users\\ASUS\\Downloads\\BLE-Scanner-master1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\40
 path.0=classes.dex
 renamed.0=classes.dex

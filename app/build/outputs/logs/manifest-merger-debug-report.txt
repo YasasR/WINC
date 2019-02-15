@@ -1,185 +1,189 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:2:1-41:12
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\20e09ec5dd101a799608cd0fe9e66d2c\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\2230a5a5d7258543f6ebb23ca7a5323c\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\138064f478d04e8ac27bd3dcd6b020a7\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\40a381dd3d28554b1dc33e0a8decd1ab\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\4b6f9598e6be01ccdfc347965ba34fa6\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9e6150fb81aaf85a10c5d67a07f33b6d\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ed87a8123d4f5a47b1acf293779e60a8\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\149e505a220472abdcacf9ad31ed89d7\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\dd141810b87ceddda5352e9ae7ebb8a1\AndroidManifest.xml:17:1-31:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\293c0db969ce1f77d1f5d18f55e0687c\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:2:1-41:12
-INJECTED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:2:1-42:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\1a9b368e22757b2bc677989d6831797c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0763e27224ea11adff57f092402884b4\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\2737ed79eee4717e4efd6d7a02bc42ad\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ec807f9ae6e195e2cea7a99731bd36e5\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\e56ba96bfe23ae8a4b075f7c3f3b7843\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\feb9b4b8c64188292596fbfe867dc2d1\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\fe6a6dd0120557dbe5ddd3deb6e01fe5\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2238eb4750ea587680468787eff3e76e\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\be6fd86c7ea32546dba6e1eb15c3e6d1\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\288eb453d08e2d234bbe0597b29e420d\AndroidManifest.xml:17:1-30:12
+INJECTED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:2:1-42:12
 	package
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:3:5-37
-		INJECTED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml
+		INJECTED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml
+		INJECTED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml
+		INJECTED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml
 uses-sdk
-ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\20e09ec5dd101a799608cd0fe9e66d2c\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\20e09ec5dd101a799608cd0fe9e66d2c\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\2230a5a5d7258543f6ebb23ca7a5323c\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\2230a5a5d7258543f6ebb23ca7a5323c\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\138064f478d04e8ac27bd3dcd6b020a7\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\138064f478d04e8ac27bd3dcd6b020a7\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\40a381dd3d28554b1dc33e0a8decd1ab\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\40a381dd3d28554b1dc33e0a8decd1ab\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\4b6f9598e6be01ccdfc347965ba34fa6\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\4b6f9598e6be01ccdfc347965ba34fa6\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9e6150fb81aaf85a10c5d67a07f33b6d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9e6150fb81aaf85a10c5d67a07f33b6d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ed87a8123d4f5a47b1acf293779e60a8\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ed87a8123d4f5a47b1acf293779e60a8\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\149e505a220472abdcacf9ad31ed89d7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\149e505a220472abdcacf9ad31ed89d7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\dd141810b87ceddda5352e9ae7ebb8a1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\dd141810b87ceddda5352e9ae7ebb8a1\AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\293c0db969ce1f77d1f5d18f55e0687c\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\293c0db969ce1f77d1f5d18f55e0687c\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:7:5-9:41
-INJECTED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:7:5-9:41
+ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\1a9b368e22757b2bc677989d6831797c\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\1a9b368e22757b2bc677989d6831797c\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0763e27224ea11adff57f092402884b4\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0763e27224ea11adff57f092402884b4\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\2737ed79eee4717e4efd6d7a02bc42ad\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\2737ed79eee4717e4efd6d7a02bc42ad\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ec807f9ae6e195e2cea7a99731bd36e5\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ec807f9ae6e195e2cea7a99731bd36e5\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\e56ba96bfe23ae8a4b075f7c3f3b7843\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\e56ba96bfe23ae8a4b075f7c3f3b7843\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\feb9b4b8c64188292596fbfe867dc2d1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\feb9b4b8c64188292596fbfe867dc2d1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\fe6a6dd0120557dbe5ddd3deb6e01fe5\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\fe6a6dd0120557dbe5ddd3deb6e01fe5\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2238eb4750ea587680468787eff3e76e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2238eb4750ea587680468787eff3e76e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\be6fd86c7ea32546dba6e1eb15c3e6d1\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\be6fd86c7ea32546dba6e1eb15c3e6d1\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\288eb453d08e2d234bbe0597b29e420d\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\288eb453d08e2d234bbe0597b29e420d\AndroidManifest.xml:20:5-22:41
+INJECTED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\20e09ec5dd101a799608cd0fe9e66d2c\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\1a9b368e22757b2bc677989d6831797c\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml
+		INJECTED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:8:9-35
-		INJECTED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml
+		INJECTED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:11:5-67
+ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:11:5-67
 	android:name
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:11:22-65
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:11:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:12:5-73
+ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:12:5-73
 	android:name
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:12:22-71
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:12:22-71
 uses-feature#android.hardware.bluetooth_le
-ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:13:5-89
+ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:13:5-89
 	android:required
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:13:19-42
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:13:19-42
 	android:name
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:13:43-87
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:13:43-87
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:14:5-81
+ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:14:5-81
 	android:name
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:14:22-78
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:14:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:15:5-79
+ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:15:5-79
 	android:name
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:15:22-76
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:15:22-76
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:16:5-66
+ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:16:5-66
 	android:name
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:16:22-64
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:16:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:17:22-76
 application
-ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:18:5-39:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\20e09ec5dd101a799608cd0fe9e66d2c\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\20e09ec5dd101a799608cd0fe9e66d2c\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\2230a5a5d7258543f6ebb23ca7a5323c\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\2230a5a5d7258543f6ebb23ca7a5323c\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\138064f478d04e8ac27bd3dcd6b020a7\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\138064f478d04e8ac27bd3dcd6b020a7\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\40a381dd3d28554b1dc33e0a8decd1ab\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\40a381dd3d28554b1dc33e0a8decd1ab\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\4b6f9598e6be01ccdfc347965ba34fa6\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\4b6f9598e6be01ccdfc347965ba34fa6\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9e6150fb81aaf85a10c5d67a07f33b6d\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9e6150fb81aaf85a10c5d67a07f33b6d\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ed87a8123d4f5a47b1acf293779e60a8\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ed87a8123d4f5a47b1acf293779e60a8\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\149e505a220472abdcacf9ad31ed89d7\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\149e505a220472abdcacf9ad31ed89d7\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\dd141810b87ceddda5352e9ae7ebb8a1\AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\dd141810b87ceddda5352e9ae7ebb8a1\AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\293c0db969ce1f77d1f5d18f55e0687c\AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\293c0db969ce1f77d1f5d18f55e0687c\AndroidManifest.xml:24:5-28:19
+ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:19:5-40:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\1a9b368e22757b2bc677989d6831797c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\1a9b368e22757b2bc677989d6831797c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0763e27224ea11adff57f092402884b4\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0763e27224ea11adff57f092402884b4\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\2737ed79eee4717e4efd6d7a02bc42ad\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\2737ed79eee4717e4efd6d7a02bc42ad\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ec807f9ae6e195e2cea7a99731bd36e5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ec807f9ae6e195e2cea7a99731bd36e5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\e56ba96bfe23ae8a4b075f7c3f3b7843\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\e56ba96bfe23ae8a4b075f7c3f3b7843\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\feb9b4b8c64188292596fbfe867dc2d1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\feb9b4b8c64188292596fbfe867dc2d1\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\fe6a6dd0120557dbe5ddd3deb6e01fe5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\fe6a6dd0120557dbe5ddd3deb6e01fe5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2238eb4750ea587680468787eff3e76e\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2238eb4750ea587680468787eff3e76e\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\be6fd86c7ea32546dba6e1eb15c3e6d1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\be6fd86c7ea32546dba6e1eb15c3e6d1\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\288eb453d08e2d234bbe0597b29e420d\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\288eb453d08e2d234bbe0597b29e420d\AndroidManifest.xml:24:5-28:19
 	android:label
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:21:9-41
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:22:9-41
 	android:icon
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:20:9-43
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:21:9-43
 	android:allowBackup
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:19:9-35
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:20:9-35
 	android:theme
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:22:9-56
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:23:9-56
 activity#com.example.blescanner.DeviceScan
-ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:23:9-30:20
+ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:24:9-31:20
 	android:label
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:25:13-45
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:26:13-45
 	android:name
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:24:13-39
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:25:13-39
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:26:13-29:29
+ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:27:13-30:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:27:17-69
+ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:27:25-66
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:28:17-77
+ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:28:27-74
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:29:27-74
 activity#com.example.blescanner.SettingsActivity
-ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:31:9-38:20
+ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:32:9-39:20
 	android:label
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:33:13-37
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:32:13-45
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:33:13-45
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT
-ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:34:13-37:29
+ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:35:13-38:29
 action#android.intent.action.VIEW
-ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:35:17-69
+ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:35:25-66
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:36:25-66
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:36:17-76
+ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:37:17-76
 	android:name
-		ADDED from C:\Users\ASUS\Downloads\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:36:27-73
+		ADDED from A:\projects\WINC\fin\BLE-Scanner-master1\app\src\main\AndroidManifest.xml:37:27-73
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\20e09ec5dd101a799608cd0fe9e66d2c\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\2230a5a5d7258543f6ebb23ca7a5323c\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\2230a5a5d7258543f6ebb23ca7a5323c\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\138064f478d04e8ac27bd3dcd6b020a7\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\138064f478d04e8ac27bd3dcd6b020a7\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\40a381dd3d28554b1dc33e0a8decd1ab\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\40a381dd3d28554b1dc33e0a8decd1ab\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\4b6f9598e6be01ccdfc347965ba34fa6\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\4b6f9598e6be01ccdfc347965ba34fa6\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9e6150fb81aaf85a10c5d67a07f33b6d\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\9e6150fb81aaf85a10c5d67a07f33b6d\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ed87a8123d4f5a47b1acf293779e60a8\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ed87a8123d4f5a47b1acf293779e60a8\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\149e505a220472abdcacf9ad31ed89d7\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\149e505a220472abdcacf9ad31ed89d7\AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\dd141810b87ceddda5352e9ae7ebb8a1\AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\dd141810b87ceddda5352e9ae7ebb8a1\AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\1a9b368e22757b2bc677989d6831797c\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0763e27224ea11adff57f092402884b4\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\0763e27224ea11adff57f092402884b4\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\2737ed79eee4717e4efd6d7a02bc42ad\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\2737ed79eee4717e4efd6d7a02bc42ad\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ec807f9ae6e195e2cea7a99731bd36e5\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\ec807f9ae6e195e2cea7a99731bd36e5\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\e56ba96bfe23ae8a4b075f7c3f3b7843\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\e56ba96bfe23ae8a4b075f7c3f3b7843\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\feb9b4b8c64188292596fbfe867dc2d1\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\feb9b4b8c64188292596fbfe867dc2d1\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\fe6a6dd0120557dbe5ddd3deb6e01fe5\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\fe6a6dd0120557dbe5ddd3deb6e01fe5\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2238eb4750ea587680468787eff3e76e\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\2238eb4750ea587680468787eff3e76e\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\be6fd86c7ea32546dba6e1eb15c3e6d1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\be6fd86c7ea32546dba6e1eb15c3e6d1\AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\20e09ec5dd101a799608cd0fe9e66d2c\AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\1a9b368e22757b2bc677989d6831797c\AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\20e09ec5dd101a799608cd0fe9e66d2c\AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\1a9b368e22757b2bc677989d6831797c\AndroidManifest.xml:27:13-51
 meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\293c0db969ce1f77d1f5d18f55e0687c\AndroidManifest.xml:25:9-27:47
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\288eb453d08e2d234bbe0597b29e420d\AndroidManifest.xml:25:9-27:47
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\293c0db969ce1f77d1f5d18f55e0687c\AndroidManifest.xml:27:13-44
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\288eb453d08e2d234bbe0597b29e420d\AndroidManifest.xml:27:13-44
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\293c0db969ce1f77d1f5d18f55e0687c\AndroidManifest.xml:26:13-58
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\a_yas\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\288eb453d08e2d234bbe0597b29e420d\AndroidManifest.xml:26:13-58

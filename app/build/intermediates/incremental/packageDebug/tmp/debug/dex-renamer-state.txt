@@ -1,4 +1,4 @@
-#Wed Aug 22 13:44:37 IST 2018
+#Fri Aug 24 13:13:00 IST 2018
 path.3=classes.dex
 path.2=classes.dex
 path.1=classes.dex
@@ -7,7 +7,7 @@ renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.3=C\:\\Users\\ASUS\\Downloads\\BLE-Scanner-master1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\29
-base.2=C\:\\Users\\ASUS\\Downloads\\BLE-Scanner-master1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\28
-base.1=C\:\\Users\\ASUS\\Downloads\\BLE-Scanner-master1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\31
-base.0=C\:\\Users\\ASUS\\Downloads\\BLE-Scanner-master1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\30
+base.3=C\:\\Users\\ASUS\\Downloads\\BLE-Scanner-master1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\48
+base.2=C\:\\Users\\ASUS\\Downloads\\BLE-Scanner-master1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\45
+base.1=C\:\\Users\\ASUS\\Downloads\\BLE-Scanner-master1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\47
+base.0=C\:\\Users\\ASUS\\Downloads\\BLE-Scanner-master1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\46
